@@ -9,10 +9,18 @@ const Header = () => {
         <div className="row">
           <div className="col-12">
             {/* <Link to="전환할 URI"> */}
-            <Link className="btn btn-success menu" to="/">Home</Link>
-            <Link className="btn btn-success menu" to="/about">About</Link>
-            <Link className="btn btn-success menu" to="/members">Members</Link>
-            <Link className="btn btn-success menu" to="/songs">SongList</Link>
+            <Link className="btn btn-success menu" to="/">
+              Home
+            </Link>
+            <Link className="btn btn-success menu" to="/about">
+              About
+            </Link>
+            <Link className="btn btn-success menu" to="/members">
+              Members
+            </Link>
+            <Link className="btn btn-success menu" to="/songs">
+              Songs
+            </Link>
           </div>
         </div>
       </div>
